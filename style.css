@@ -1,0 +1,255 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu {
+    color: white;
+    text-align: center;
+    
+}
+.biography {
+    text-align: center;
+    font-size: 50px;
+}
+#selfp {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    padding-left: 480px;
+}
+.story h3 {
+   text-align: center;
+}
+.story p {
+    text-align: center;
+    margin: 0 300px 0 300px;
+    font-size: 18px;
+}
+.contact-icons {
+    padding-top: 30px;
+    padding-left: 580px;
+    
+}
+#tweet {
+    margin: 30px;
+}
+
+.sidebyside {
+    display: flex;
+    width: 80%;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.left1 {
+  width: 50%;
+}
+.left1 h1 {
+    font-size: 45px;
+    
+}
+
+.right1 {
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.right1 h3 {
+    font-size: 25px;
+}
+.right1 p {
+    font-size: 20px;
+}
+
+.standalone-1 {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+.standalone-1 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    border-bottom: 1px solid white;
+}
+
+.standalone-1 h2 {
+    font-size: 55px;
+}
+
+.standalone-1 p {
+    font-size: 30px;
+}
+
+.pictures-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 80%;
+    margin: 20px 100px 20px 100px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+#zzz {
+    height: 330px;
+    width: 330px;
+    border-radius: 40px;
+}
+
+#zzz:hover {
+    transition: ease-out 0.5s;
+}
+.learn {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.house {
+    border: 2px solid white;
+    margin: 0 500px;
+}
+.house h2 {
+    margin: 30px;
+}
+.motivation {
+    display: flex;
+    width: 80%;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+.left-motive {
+    width: 50%;
+
+}
+.left-motive h3 {
+    font-size: 25px
+}
+.left-motive p {
+    font-size: 20px;
+}
+
+.right-motive {
+    width: 50%;
+    padding-left: 40px;
+}
+.right-motive p {
+    font-size: 20px;
+
+}
+
+#signpic {
+    width: 200px;
+    height: 150px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headie, .number, .place, .here, .sample {
+    text-align: center;
+    font-size: 20px;
+}
+.headie {
+    font-size: 45px;
+}
+#contact-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.thickdash {
+    border-bottom: 15px solid white;
+    width: 200px;
+    padding-left: px;
+}
+.number a {
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:1100px) {
+    .portrait-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100vh;
+    }
+
+    #selfp, .sidebyside, .pictures-6, .motivation .contact-icons{
+        padding-left: 0px;
+    }
+    .contact-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    #tweet {
+        margin: 10px;
+    }
+    .story p {
+        margin: 20%;
+    }
+    .pictures-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebyside, .motivation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1, h2, h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .portrait-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+       }
+   
+       #selfp, .sidebyside, .pictures-6, .motivation .contact-icons{
+           padding-left: 0px;
+       }
+       .contact-icons {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin: 0px;
+           padding: 0px;
+           top: 0px;
+           left: 0px;
+           right: 0px;
+       }
+       #tweet {
+           margin: 10px;
+       }
+       .story p {
+           margin: 20%;
+       }
+       .pictures-6 {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+       .sidebyside, .motivation {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+       h1, h2, h3 {
+           font-size: 25px;
+       }
+}
