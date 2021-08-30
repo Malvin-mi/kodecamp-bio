@@ -215,8 +215,8 @@ body{
     }
 
 
-    .article p, .left1, .right1, .right-motive, .left-motive {
-        margin: 0 1%;
+    .article, .left1, .right1, .right-motive, .left-motive {
+        margin: 0 5%;
         width: auto;
     }
     
